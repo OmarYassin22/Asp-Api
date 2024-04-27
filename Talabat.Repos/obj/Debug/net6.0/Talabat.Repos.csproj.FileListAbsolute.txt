@@ -1,0 +1,15 @@
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\bin\Debug\net6.0\Talabat.Repos.deps.json
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\bin\Debug\net6.0\Talabat.Repos.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\bin\Debug\net6.0\Talabat.Repos.pdb
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repos.csproj.AssemblyReference.cache
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repos.GeneratedMSBuildEditorConfig.editorconfig
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repos.AssemblyInfoInputs.cache
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repos.AssemblyInfo.cs
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repos.csproj.CoreCompileInputs.cache
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat..C7B7DD72.Up2Date
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repos.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\refint\Talabat.Repos.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repos.pdb
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\ref\Talabat.Repos.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\bin\Debug\net6.0\Talabat.Access.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\bin\Debug\net6.0\Talabat.Access.pdb

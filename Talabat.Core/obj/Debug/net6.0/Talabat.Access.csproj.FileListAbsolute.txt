@@ -1,0 +1,11 @@
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\bin\Debug\net6.0\Talabat.Access.deps.json
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\bin\Debug\net6.0\Talabat.Access.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\bin\Debug\net6.0\Talabat.Access.pdb
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\Talabat.Access.GeneratedMSBuildEditorConfig.editorconfig
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\Talabat.Access.AssemblyInfoInputs.cache
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\Talabat.Access.AssemblyInfo.cs
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\Talabat.Access.csproj.CoreCompileInputs.cache
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\Talabat.Access.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Access.dll
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\Talabat.Access.pdb
+D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Access.dll
