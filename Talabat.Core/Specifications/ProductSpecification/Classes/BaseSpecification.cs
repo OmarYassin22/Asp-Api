@@ -13,9 +13,14 @@ namespace Talabat.Access.Specifications.Product.Classes
     {
         public Expression<Func<T, bool>> Condition { get; set; } = null;
         public List<Expression<Func<T, object>>> Includes { get; set; } = new List<Expression<Func<T, object>>>();
+
+        public Expression<Func<T, object>> Order { get; set; }
+        public Expression<Func<T, object>> OrderDesc { get ; set; }
+
         public BaseSpecification()
         {
-
+        
+            
         }
         public BaseSpecification(Expression<Func<T, bool>> expression)
         {

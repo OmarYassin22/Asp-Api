@@ -1,4 +1,6 @@
 ﻿
+using System.Text.Json;
+
 namespace Talabat.presentations.Errors
 {
     public class ApiResponease
@@ -22,6 +24,10 @@ namespace Talabat.presentations.Errors
                 500=>"Server Not Found",
                 _ => ""
             };
+        }
+        public override string ToString()
+        {
+            return JsonSerializer.Serialize(new { statesCode,message});
         }
     }
 }

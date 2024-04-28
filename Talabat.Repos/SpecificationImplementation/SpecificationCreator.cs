@@ -17,10 +17,17 @@ namespace Talabat.Repo.SpecificationImplementation
             if (spec.Condition is not null)
                 query = query.Where(spec.Condition);
             if (spec?.Includes?.Count > 0)
-                foreach (var inc in spec.Includes)
-                    query = query.Include(inc);
+                query = spec.Includes.Aggregate(query,(currentQuery,NextIncludes)=>currentQuery.Include(NextIncludes));
 
+            if (spec?.Order is not null)
+            {
+               query=query.OrderBy(spec.Order);
 
+            }
+            else
+            {
+                query = query.OrderBy(spec.OrderDesc);
+            }
             return query;
 
 

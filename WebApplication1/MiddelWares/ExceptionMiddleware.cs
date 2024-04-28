@@ -31,8 +31,8 @@ namespace Talabat.presentations.MiddelWares
                 context.Response.ContentType = "Application/Text";
                 context.Response.StatusCode= (int)HttpStatusCode.InternalServerError;
 
-                var response = _env.IsDevelopment() ? new ApiException(500, ex.Message, ex.StackTrace.ToString())
-                    : new ApiException(500);
+                var response = _env.IsDevelopment() ? new ApiException(500, ex.Message, ex.StackTrace.ToString()).ToString()
+                    : new ApiException(500).ToString();
                 var res = JsonSerializer.Serialize(response);
                 await context.Response.WriteAsync(res);
             }

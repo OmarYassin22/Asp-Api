@@ -20,13 +20,13 @@ namespace Talabat.presentaion.Controllers
         private readonly IGenericRepository<Product> _products;
         private readonly IMapper _mapper;
 
-        public ProductsController(GenericRepository<Product> Products,IMapper mapper)
+        public ProductsController(GenericRepository<Product> Products, IMapper mapper)
         {
             _products = Products;
             _mapper = mapper;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts()
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts([FromQuery]string? sort)
         {
 
             //var pros = await _products.GetAllAsync();
@@ -34,7 +34,7 @@ namespace Talabat.presentaion.Controllers
             //var result= new JsonResult(product);
             //var product= new OkResult();
 
-            var spec = new ProductWithSpecifications();
+            var spec = new ProductWithSpecifications(sort);
 
             var pros = await _products.GetAllWithSpecAsync(spec);
             var result = _mapper.Map<IEnumerable< ProductDTO>>(pros);
@@ -61,7 +61,7 @@ namespace Talabat.presentaion.Controllers
              var result= _mapper.Map<ProductDTO>(product);
                 return Ok(result);
             }
-            return NotFound(new ApiResponease(404));
+            return NotFound(new ApiResponease(404).ToString());
 
         }
 

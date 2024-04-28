@@ -12,7 +12,8 @@ namespace Talabat.Access.Specifications.Product.Interfaces
     {
         public Expression<Func<T, bool>> Condition { get; set; }
         public List<Expression<Func<T, object>>> Includes { get; set; }
-
+        public Expression<Func<T,object>> Order {  get; set; }
+        public Expression<Func<T,object>> OrderDesc { get; set; }
 
     }
 }

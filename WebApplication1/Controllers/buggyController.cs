@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 using Talabat.presentaion.Controllers;
 using Talabat.presentations.Errors;
 using Talabat.Repos.Data.Contexts;
@@ -24,31 +25,32 @@ namespace Talabat.presentations.Controllers
             var pro = _context.Products.Find(1000);
             if (pro == null)
             {
-                var res = new ApiResponease(404,"Not Found");
-                return NotFound(res);
+               
+                return NotFound(value: new ApiResponease(404, "Not Found").ToString());
             }
             return Ok(pro);
         }
         [HttpGet("400")]
         public ActionResult GetBadRequest()
-        { return BadRequest(new ApiResponease(400)); }
+        { return BadRequest(new ApiResponease(400).ToString()); }
         [HttpGet("400/{id}")]
         public ActionResult GetBadRequest(int? id)
         { return Ok(); }
 
 
         [HttpGet("Excetion")]
-        public ActionResult GetServerError() {
+        public ActionResult GetServerError()
+        {
 
             var pro = _context.Products.Find(1000);
-           var result= pro.ToString();
+            var result = pro.ToString();
             return Ok(result);
         }
 
         [HttpGet("unauthorized")]
         public ActionResult GetUnAuthorized()
         {
-            return Unauthorized(new ApiResponease(401));
+            return Unauthorized(new ApiResponease(401).ToString());
         }
 
     }

@@ -27,15 +27,10 @@ namespace Talabat.Repos.Repositories
             {
                 return (IEnumerable<T>)await context.Products.Include(p => p.ProductBrand).Include(p => p.ProductCategory).ToListAsync();
             }
-            return await context.Set<T>().ToListAsync();
+            return await context.Set<T>().AsNoTracking().ToListAsync();
         }
 
-        
-        public async Task<IEnumerable<T>> GetAllWithSpecAsync(IBaseSpecification<T> spec)
-        {
-           
-            return await SpecificationCreator<T>.CreateQuery(context.Set<T>(), spec).ToListAsync();
-        }
+    
 
         public async Task<T?> GetByIdAsync(int id)
         {
@@ -45,14 +40,22 @@ namespace Talabat.Repos.Repositories
             }
             return await context.Set<T>().FindAsync(id);
         }
-
+    
+        public async Task<IEnumerable<T>> GetAllWithSpecAsync(IBaseSpecification<T> spec)
+        {
+            return await _creatSpec(spec).ToListAsync();
+        }
         public async Task<T?> GetByIdWithSpecAsync(IBaseSpecification<T> spec)
         {
           
-            return await SpecificationCreator<T>.CreateQuery(context.Set<T>(), spec).FirstOrDefaultAsync();
+            return await _creatSpec(spec).FirstOrDefaultAsync();
         }
     
 
-    
+    private IQueryable<T> _creatSpec(IBaseSpecification<T> spec)
+        {
+
+            return SpecificationCreator<T>.CreateQuery(context.Set<T>(), spec);
+        }
     }
 }

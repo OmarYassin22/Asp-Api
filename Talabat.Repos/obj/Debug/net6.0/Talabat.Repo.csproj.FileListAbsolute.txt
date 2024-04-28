@@ -13,3 +13,19 @@ D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\
 D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\refint\Talabat.Repo.dll
 D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.pdb
 D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Repos\obj\Debug\net6.0\ref\Talabat.Repo.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\bin\Debug\net6.0\Talabat.Repo.deps.json
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\bin\Debug\net6.0\Talabat.Repo.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\bin\Debug\net6.0\Talabat.Repo.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\bin\Debug\net6.0\Talabat.Access.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\bin\Debug\net6.0\Talabat.Access.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.csproj.AssemblyReference.cache
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.AssemblyInfoInputs.cache
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.AssemblyInfo.cs
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.csproj.CoreCompileInputs.cache
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.sourcelink.json
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat..6056FACC.Up2Date
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\refint\Talabat.Repo.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\Talabat.Repo.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Repos\obj\Debug\net6.0\ref\Talabat.Repo.dll
