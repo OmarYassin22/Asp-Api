@@ -11,7 +11,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.29",
           "Swashbuckle.AspNetCore": "6.5.0",
-          "Talabat.Access": "1.0.0",
+          "Talabat.Core": "1.0.0",
           "Talabat.Repo": "1.0.0"
         },
         "runtime": {
@@ -517,15 +517,15 @@
           }
         }
       },
-      "Talabat.Access/1.0.0": {
+      "Talabat.Core/1.0.0": {
         "runtime": {
-          "Talabat.Access.dll": {}
+          "Talabat.Core.dll": {}
         }
       },
       "Talabat.Repo/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.29",
-          "Talabat.Access": "1.0.0"
+          "Talabat.Core": "1.0.0"
         },
         "runtime": {
           "Talabat.Repo.dll": {}
@@ -896,7 +896,7 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "Talabat.Access/1.0.0": {
+    "Talabat.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

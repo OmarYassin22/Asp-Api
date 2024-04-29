@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Access.csproj",
-      "projectName": "Talabat.Access",
-      "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Access.csproj",
+      "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
+      "projectName": "Talabat.Core",
+      "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
       "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\obj\\",
       "projectStyle": "PackageReference",

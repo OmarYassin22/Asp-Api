@@ -8,8 +8,8 @@ using Talabat.Access.Specifications.Product;
 using Talabat.Access.Models;
 using Talabat.Access.Specifications.Product.Interfaces;
 using Talabat.Core.Interfaces.Repository;
-using Talabat.Repo.SpecificationImplementation;
 using Talabat.Repos.Data.Contexts;
+using Talabat.Repo.Specifications.SpecificationImplementation;
 
 namespace Talabat.Repos.Repositories
 {

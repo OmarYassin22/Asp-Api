@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talabat.presentations", "WebApplication1\Talabat.presentations.csproj", "{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talabat.Access", "Talabat.Core\Talabat.Access.csproj", "{040073F8-D035-4F91-A7F2-AF9B4DA4F659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talabat.Core", "Talabat.Core\Talabat.Core.csproj", "{040073F8-D035-4F91-A7F2-AF9B4DA4F659}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talabat.Repo", "Talabat.Repos\Talabat.Repo.csproj", "{2D523834-1193-48E4-A5FF-C1F1B9102877}"
 EndProject

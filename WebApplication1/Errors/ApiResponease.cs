@@ -5,16 +5,17 @@ namespace Talabat.presentations.Errors
 {
     public class ApiResponease
     {
-        public readonly int statesCode;
-        public readonly string? message;
+      
+        public int StatesCode { get; set; }
+        public string? Message { get; set; }
 
-        public ApiResponease(int StatesCode,string? Message=null)
+        public ApiResponease(int statesCode,string? message=null)
         {
-            this.statesCode = StatesCode;
-            message = Message ?? GetDefaultMessage(StatesCode);
+            StatesCode = statesCode;
+            Message = message ?? GetDefaultMessage(statesCode);
         }
 
-        private string? GetDefaultMessage(int statescode)
+        private  string? GetDefaultMessage(int statescode)
         {
             return statescode switch
             {
@@ -25,9 +26,9 @@ namespace Talabat.presentations.Errors
                 _ => ""
             };
         }
-        public override string ToString()
-        {
-            return JsonSerializer.Serialize(new { statesCode,message});
-        }
+        //public override string ToString()
+        //{
+        //    return JsonSerializer.Serialize(new { statesCode,message});
+        //}
     }
 }

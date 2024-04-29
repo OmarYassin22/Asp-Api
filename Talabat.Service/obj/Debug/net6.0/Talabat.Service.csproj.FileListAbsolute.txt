@@ -9,3 +9,15 @@ D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Service\obj\Debu
 D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
 D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
 D:\courses\C#\Route\Matrial\03-C#\7-API\WebApplication1\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\bin\Debug\net6.0\Talabat.Service.deps.json
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\bin\Debug\net6.0\Talabat.Service.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\bin\Debug\net6.0\Talabat.Service.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfoInputs.cache
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfo.cs
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.CoreCompileInputs.cache
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.sourcelink.json
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll

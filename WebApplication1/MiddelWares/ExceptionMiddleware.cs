@@ -17,7 +17,7 @@ namespace Talabat.presentations.MiddelWares
             _env = env;
         }
 
-        public async Task InvokeAsync(HttpContext context) 
+        public  async Task InvokeAsync(HttpContext context) 
         {
 
             try
@@ -31,7 +31,7 @@ namespace Talabat.presentations.MiddelWares
                 context.Response.ContentType = "Application/Text";
                 context.Response.StatusCode= (int)HttpStatusCode.InternalServerError;
 
-                var response = _env.IsDevelopment() ? new ApiException(500, ex.Message, ex.StackTrace.ToString()).ToString()
+                var response = _env.IsDevelopment() ? new ApiException(500, null, ex?.StackTrace.ToString()).ToString()
                     : new ApiException(500).ToString();
                 var res = JsonSerializer.Serialize(response);
                 await context.Response.WriteAsync(res);

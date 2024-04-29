@@ -899,14 +899,14 @@
           }
         }
       },
-      "Talabat.Access/1.0.0": {
+      "Talabat.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Talabat.Access.dll": {}
+          "bin/placeholder/Talabat.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Talabat.Access.dll": {}
+          "bin/placeholder/Talabat.Core.dll": {}
         }
       },
       "Talabat.Repo/1.0.0": {
@@ -914,7 +914,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.29",
-          "Talabat.Access": "1.0.0"
+          "Talabat.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Talabat.Repo.dll": {}
@@ -2512,10 +2512,10 @@
         "version.txt"
       ]
     },
-    "Talabat.Access/1.0.0": {
+    "Talabat.Core/1.0.0": {
       "type": "project",
-      "path": "../Talabat.Core/Talabat.Access.csproj",
-      "msbuildProject": "../Talabat.Core/Talabat.Access.csproj"
+      "path": "../Talabat.Core/Talabat.Core.csproj",
+      "msbuildProject": "../Talabat.Core/Talabat.Core.csproj"
     },
     "Talabat.Repo/1.0.0": {
       "type": "project",
@@ -2528,7 +2528,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.29",
       "Swashbuckle.AspNetCore >= 6.5.0",
-      "Talabat.Access >= 1.0.0",
+      "Talabat.Core >= 1.0.0",
       "Talabat.Repo >= 1.0.0"
     ]
   },
@@ -2559,8 +2559,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Access.csproj": {
-              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Access.csproj"
+            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
+              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
             },
             "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj": {
               "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj"

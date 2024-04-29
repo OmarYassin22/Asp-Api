@@ -36,7 +36,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brands");
+                    b.ToTable("Brand");
                 });
 
             modelBuilder.Entity("Talabat.Access.Models.Category", b =>
@@ -53,7 +53,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("Talabat.Access.Models.Product", b =>
@@ -65,11 +65,9 @@ namespace Talabat.Repos.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<int?>("BrandId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("CategoryId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -95,7 +93,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("Talabat.Access.Models.Product", b =>
@@ -103,14 +101,12 @@ namespace Talabat.Repos.Migrations
                     b.HasOne("Talabat.Access.Models.Brand", "ProductBrand")
                         .WithMany()
                         .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.SetNull)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.HasOne("Talabat.Access.Models.Category", "ProductCategory")
                         .WithMany()
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.SetNull)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("ProductBrand");
 

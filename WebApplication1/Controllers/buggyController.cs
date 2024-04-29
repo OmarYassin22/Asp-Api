@@ -25,8 +25,9 @@ namespace Talabat.presentations.Controllers
             var pro = _context.Products.Find(1000);
             if (pro == null)
             {
+                var response = new ApiResponease(404, "Not Found");
                
-                return NotFound(value: new ApiResponease(404, "Not Found").ToString());
+                return NotFound(response );
             }
             return Ok(pro);
         }
@@ -38,7 +39,7 @@ namespace Talabat.presentations.Controllers
         { return Ok(); }
 
 
-        [HttpGet("Excetion")]
+        [HttpGet("servererror")]
         public ActionResult GetServerError()
         {
 

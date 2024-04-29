@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\courses\\C#\\Route\\Matrial\\03-C#\\7-API\\WebApplication1\\Talabat.Core\\Talabat.Core.csproj": {}
+    "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {}
   },
   "projects": {
-    "D:\\courses\\C#\\Route\\Matrial\\03-C#\\7-API\\WebApplication1\\Talabat.Core\\Talabat.Core.csproj": {
+    "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\courses\\C#\\Route\\Matrial\\03-C#\\7-API\\WebApplication1\\Talabat.Core\\Talabat.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
         "projectName": "Talabat.Core",
-        "projectPath": "D:\\courses\\C#\\Route\\Matrial\\03-C#\\7-API\\WebApplication1\\Talabat.Core\\Talabat.Core.csproj",
+        "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
         "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
-        "outputPath": "D:\\courses\\C#\\Route\\Matrial\\03-C#\\7-API\\WebApplication1\\Talabat.Core\\obj\\",
+        "outputPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omar Y. Sleem\\AppData\\Roaming\\NuGet\\NuGet.Config",

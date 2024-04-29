@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Talabat.Access.Models;
 using Talabat.Access.Specifications.Product.Interfaces;
 
-namespace Talabat.Repo.SpecificationImplementation
+namespace Talabat.Repo.Specifications.SpecificationImplementation
 {
     public class SpecificationCreator<T> where T : BaseModel
     {
@@ -17,11 +17,11 @@ namespace Talabat.Repo.SpecificationImplementation
             if (spec.Condition is not null)
                 query = query.Where(spec.Condition);
             if (spec?.Includes?.Count > 0)
-                query = spec.Includes.Aggregate(query,(currentQuery,NextIncludes)=>currentQuery.Include(NextIncludes));
+                query = spec?.Includes?.Aggregate(query, (currentQuery, NextIncludes) => currentQuery.Include(NextIncludes));
 
             if (spec?.Order is not null)
             {
-               query=query.OrderBy(spec.Order);
+                query = query.OrderBy(spec.Order);
 
             }
             else

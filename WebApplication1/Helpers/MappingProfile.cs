@@ -10,14 +10,21 @@ namespace Talabat.presentations.Helpers
     {
         public MappingProfile(IConfiguration conf)
         {
-            CreateMap<Product,ProductDTO>().
-                ForMember(d=>d.ProductBrand,O=>O.MapFrom(s=>s.ProductBrand.Name)).
+            CreateMap<Product, ProductDTO>().
+                ForMember(d => d.ProductBrand, O => O.MapFrom(s=> s.ProductBrand.Name)).
                 ForMember(d => d.ProductCategory, O => O.MapFrom(s => s.ProductCategory.Name))
-              .ForMember(d=>d.PictureUrl,O=>O.MapFrom< ProductPictureResolver>())
               //.ReverseMap();  
-              .ForMember(d => d.PictureUrl, O => O.MapFrom(d => conf["BaseUrl"]+d.PictureUrl)).ReverseMap();
+              .ForMember(d => d.PictureUrl, O => O.MapFrom(d=>$"{conf["BaseUrl"]}{d.PictureUrl}")).ReverseMap();
 
             CreateMap<Employee, EmployeeDTO>().ReverseMap();
+        }
+        public MappingProfile()
+        {
+            CreateMap<Product, ProductDTO>().
+             ForMember(d => d.ProductBrand, O => O.MapFrom(s => s.ProductBrand.Name)).
+             ForMember(d => d.ProductCategory, O => O.MapFrom(s => s.ProductCategory.Name))
+          .ForMember(d => d.PictureUrl, O => O.MapFrom<ProductPictureResolver>());
+
         }
     }
 }

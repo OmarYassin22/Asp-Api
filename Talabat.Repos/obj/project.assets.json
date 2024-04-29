@@ -738,14 +738,14 @@
           }
         }
       },
-      "Talabat.Access/1.0.0": {
+      "Talabat.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Talabat.Access.dll": {}
+          "bin/placeholder/Talabat.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Talabat.Access.dll": {}
+          "bin/placeholder/Talabat.Core.dll": {}
         }
       }
     }
@@ -1913,16 +1913,16 @@
         "version.txt"
       ]
     },
-    "Talabat.Access/1.0.0": {
+    "Talabat.Core/1.0.0": {
       "type": "project",
-      "path": "../Talabat.Core/Talabat.Access.csproj",
-      "msbuildProject": "../Talabat.Core/Talabat.Access.csproj"
+      "path": "../Talabat.Core/Talabat.Core.csproj",
+      "msbuildProject": "../Talabat.Core/Talabat.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.29",
-      "Talabat.Access >= 1.0.0"
+      "Talabat.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1952,8 +1952,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Access.csproj": {
-              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Access.csproj"
+            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
+              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
             }
           }
         }

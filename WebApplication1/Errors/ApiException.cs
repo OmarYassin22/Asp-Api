@@ -2,11 +2,11 @@
 {
     public class ApiException : ApiResponease
     {
-        private readonly string? details;
+        public string? Details { get; set; }
 
-        public ApiException(int StatesCode, string? Message = null,string? Details=null) : base(StatesCode, Message)
+        public ApiException(int StatesCode, string? Message = null,string? details = null) : base(StatesCode, Message)
         {
-            details = Details;
+            Details = details;
         }
     }
 }
