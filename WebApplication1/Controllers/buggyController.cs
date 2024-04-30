@@ -51,7 +51,7 @@ namespace Talabat.presentations.Controllers
         [HttpGet("unauthorized")]
         public ActionResult GetUnAuthorized()
         {
-            return Unauthorized(new ApiResponease(401).ToString());
+            return Unauthorized(new ApiResponease(401));
         }
 
     }

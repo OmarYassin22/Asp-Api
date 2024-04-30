@@ -11,8 +11,16 @@ namespace Talabat.presentations.Controllers
     {
         public ActionResult Error(int code)
         {
+            switch (code)
+            {
+                case 401:
+                    return Unauthorized(new ApiResponease(code));
+                case 404:
+                    return NotFound(new ApiResponease(code));
+                default:
+                    return StatusCode(code);
+            }
 
-            return NotFound(new ApiResponease(code));
         }
     }
 }

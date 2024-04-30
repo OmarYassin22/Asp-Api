@@ -15,7 +15,8 @@ namespace Talabat.Repos.Helpers
         {
             if (context.Brands?.Count() == 0)
             {
-                var BrandData = File.ReadAllText("D:\\courses\\C#\\Route\\Matrial\\03-C#\\7-API\\WebApplication1\\Talabat.Repos\\Data\\InitalData\\brands.json");
+
+                var BrandData = File.ReadAllText(Directory.GetCurrentDirectory() + "\\Talabat.Repos\\Data\\InitalData\\brands.json");
                 var brands = JsonSerializer.Deserialize<List<Brand>>(BrandData);
                 if (brands is not null)
                 {

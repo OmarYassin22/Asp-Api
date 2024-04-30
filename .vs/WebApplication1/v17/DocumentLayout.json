@@ -3,64 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\data\\configurations\\productconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\data\\configurations\\productconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\data\\contexts\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\data\\contexts\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Data\\Migrations\\20240429103414_update Sechema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Talabat.Repos\\Data\\Migrations\\20240429103414_update Sechema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\helpers\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\helpers\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\specifications\\companyspecification\\employeewithdepartmentspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\specifications\\companyspecification\\employeewithdepartmentspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\specifications\\productspecification\\productwithspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\specifications\\productspecification\\productwithspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\specification\\classes\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\specification\\classes\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\specifications\\implementaion\\specificationcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\specifications\\implementaion\\specificationcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\middelwares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\middelwares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,45 +34,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductConf.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Data\\Configurations\\ProductConf.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Data\\Configurations\\ProductConf.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Data\\Configurations\\ProductConf.cs",
-              "RelativeToolTip": "Talabat.Repos\\Data\\Configurations\\ProductConf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:35:45.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240429103414_update Sechema.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Data\\Migrations\\20240429103414_update Sechema.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Data\\Migrations\\20240429103414_update Sechema.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Data\\Migrations\\20240429103414_update Sechema.cs",
-              "RelativeToolTip": "Talabat.Repos\\Data\\Migrations\\20240429103414_update Sechema.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:34:14.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StoreDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Data\\Contexts\\StoreDbContext.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Data\\Contexts\\StoreDbContext.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Data\\Contexts\\StoreDbContext.cs",
-              "RelativeToolTip": "Talabat.Repos\\Data\\Contexts\\StoreDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:31:30.056Z",
+              "WhenOpened": "2024-04-30T10:48:15.801Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -117,159 +56,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Category.cs",
-              "RelativeToolTip": "Talabat.Core\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:32:24.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Product.cs",
-              "RelativeToolTip": "Talabat.Core\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:32:19.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Brand.cs",
-              "RelativeToolTip": "Talabat.Core\\Models\\Brand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "ErrorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ErrorsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ErrorsController.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ErrorsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ErrorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:31:15.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T12:04:42.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Helpers\\Data.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Helpers\\Data.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Helpers\\Data.cs",
-              "RelativeToolTip": "Talabat.Repos\\Helpers\\Data.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAewA8AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:29:56.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:30:05.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductWithSpecifications.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
-              "RelativeToolTip": "Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:29:29.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeWithDepartmentSpecification.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\CompanySpecification\\EmployeeWithDepartmentSpecification.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Specifications\\CompanySpecification\\EmployeeWithDepartmentSpecification.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\CompanySpecification\\EmployeeWithDepartmentSpecification.cs",
-              "RelativeToolTip": "Talabat.Repos\\Specifications\\CompanySpecification\\EmployeeWithDepartmentSpecification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:29:03.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BaseSpecification.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
-              "RelativeToolTip": "Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBgAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T10:28:20.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SpecificationCreator.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\Implementaion\\SpecificationCreator.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Specifications\\Implementaion\\SpecificationCreator.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\Implementaion\\SpecificationCreator.cs",
-              "RelativeToolTip": "Talabat.Repos\\Specifications\\Implementaion\\SpecificationCreator.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAewBMAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T09:40:40.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ProductController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAwC0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T09:03:43.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T10:48:15.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Talabat.Repos\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Talabat.Repos\\Repositories\\GenericRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAMwC4AAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAowD4AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:40:28.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T12:01:34.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAowC4AAAAxAAAA",
+              "DocumentIndex": 5,
+              "Title": "BaseAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\BaseAPIController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BaseAPIController.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\BaseAPIController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\BaseAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T07:57:33.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T10:48:02.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "buggyController.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\buggyController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\buggyController.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\buggyController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\buggyController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAkwC8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:43:33.99Z"
             }
           ]
         }

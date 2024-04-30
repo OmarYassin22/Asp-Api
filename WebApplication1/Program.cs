@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System.Reflection;
+using System.Text.Json;
 using Talabat.Access.Models;
 using Talabat.Access.Models.Company;
 using Talabat.Core.Interfaces.Repository;
@@ -25,7 +26,7 @@ namespace WebApplication1
             var WebApplicationBuilder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            WebApplicationBuilder.Services.AddEndpointsApiExplorer();
             WebApplicationBuilder.Services.AddDbContext<StoreDbContext>(option =>
             {
 
@@ -36,23 +37,63 @@ namespace WebApplication1
                 option.UseSqlServer(WebApplicationBuilder.Configuration.GetConnectionString("Company"));
 
             });
+
+
+
+
+
             // Add Services Function
             WebApplicationBuilder.Services.AddSevices(WebApplicationBuilder.Configuration);
 
+            
             var app = WebApplicationBuilder.Build();
             await AutoMigrateAsync(app);
 
-
+            
 
             // Configure the HTTP request pipeline.
-            app.UseMiddleware<ExceptionMiddleWare>();
+            // Expetion MiddleWare
+
+            // exception meddleware must be first middleware
+            //
+            // By-Convension/By-Factory
+            //app.UseMiddleware<ExceptionMiddleware>();
+            
+            //Request Delegate
+            app.Use(async (httpContext, _next) => {
+
+                try
+                {
+                    await _next.Invoke(httpContext);
+                }
+                catch (Exception ex)
+                {
+                    {
+                        httpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
+                        httpContext.Response.ContentType = "application/json";
+                        var response = app.Environment.IsDevelopment() ? new ApiException(httpContext.Response.StatusCode, ex.Message
+                            , ex.StackTrace.ToString()) :
+                            new ApiException();
+                        // determind json serializer options
+                        var option = new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+                        await httpContext.Response.WriteAsync(JsonSerializer.Serialize(response, option));
+
+
+                    }
+
+
+
+                }
+            });
+
+
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
-            app.UseStatusCodePagesWithRedirects("Errors/{0}");
+            app.UseStatusCodePagesWithReExecute("Errors/{0}");
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
