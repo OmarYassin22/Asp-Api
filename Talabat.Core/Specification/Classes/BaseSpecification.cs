@@ -14,8 +14,8 @@ namespace Talabat.Access.Specifications.Product.Classes
         public Expression<Func<T, bool>> Condition { get; set; } = null;
         public List<Expression<Func<T, object>>> Includes { get; set; } = new List<Expression<Func<T, object>>>();
 
-        public Expression<Func<T, object>> Order { get; set; }
-        public Expression<Func<T, object>> OrderDesc { get ; set; }
+        public Expression<Func<T,object>> Order { get; set; } = null;
+        public Expression<Func<T, object>> OrderDesc { get; set; } = null;
 
         public BaseSpecification()
         {
@@ -28,6 +28,15 @@ namespace Talabat.Access.Specifications.Product.Classes
 
         }
 
+
+        public void SetOrderBy(Expression<Func<T, object>> orderBy)
+        {
+            Order=orderBy;
+        }
+        public void SetOrderByDesc(Expression<Func<T,object>> orderbydesc)
+        {
+            OrderDesc = orderbydesc;
+        }
 
     }
 }

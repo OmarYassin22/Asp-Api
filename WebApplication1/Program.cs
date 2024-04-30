@@ -1,21 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using System.Reflection;
 using System.Text.Json;
-using Talabat.Access.Models;
-using Talabat.Access.Models.Company;
-using Talabat.Core.Interfaces.Repository;
 using Talabat.presentations.Errors;
 using Talabat.presentations.Extentions;
-using Talabat.presentations.Helpers;
-using Talabat.presentations.MiddelWares;
 using Talabat.Repo.Data.Contexts;
-using Talabat.Repo.Repositories;
 using Talabat.Repos.Data.Contexts;
 using Talabat.Repos.Helpers;
-using Talabat.Repos.Repositories;
 
 namespace WebApplication1
 {

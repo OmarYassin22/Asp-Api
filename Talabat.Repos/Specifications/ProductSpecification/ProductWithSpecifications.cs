@@ -12,25 +12,31 @@ namespace Talabat.Access.Specifications.ProductSpecification
 {
     public class ProductWithSpecifications : BaseSpecification<Models.Product>
     {
-        public ProductWithSpecifications(string? sort="name") : base()
+        public ProductWithSpecifications(string sort,int? brandId,int? CategoryId) : base()
         {
             Includes.Add(p => p.ProductBrand);
             Includes.Add(p => p.ProductCategory);
-            Order = Order;
-            
-            switch (sort?.ToLower())
+            Condition = p => (!brandId.HasValue || p.BrandId == brandId.Value)
+                        && (!CategoryId.HasValue || p.CategoryId == CategoryId.Value);
+
+            switch (sort.ToLower())
             {
                 case "namedesc":
-                    OrderDesc = p => p.Name;
+                    SetOrderByDesc(p => p.Name);
+                    //OrderDesc = p => p.Name;
                     break;
                 case "priceasc":
-                       Order = p => p.Price;
+                    SetOrderBy(p => p.Price);
+                       //Order = p => p.Price;
                     break;
                 case "pricedesc":
-                    OrderDesc = p => p.Price;
+                    SetOrderByDesc(p => p.Price);
+                    //OrderDesc = p => p.Price;
                     break;
                 default:
-                    Order = p => p.Name;
+                    SetOrderBy(p => p.Name);
+
+                    //Order = p => p.Name;
 
                     break;
             }

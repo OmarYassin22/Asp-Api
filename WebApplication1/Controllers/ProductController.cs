@@ -1,15 +1,10 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Talabat.Access.Models;
-using Talabat.Access.Specifications.Product;
 using Talabat.Access.Specifications.ProductSpecification;
 using Talabat.Core.Interfaces.Repository;
 using Talabat.presentations.DTOs;
 using Talabat.presentations.Errors;
-using Talabat.presentations.Helpers;
-using Talabat.Repos.Data.Contexts;
 using Talabat.Repos.Repositories;
 
 namespace Talabat.presentaion.Controllers
@@ -26,7 +21,7 @@ namespace Talabat.presentaion.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts([FromQuery]string? sort)
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts([FromQuery]string? sort, [FromQuery] int? brandId, [FromQuery] int? CategoryId)
         {
 
             //var pros = await _products.GetAllAsync();
@@ -34,7 +29,7 @@ namespace Talabat.presentaion.Controllers
             //var result= new JsonResult(product);
             //var product= new OkResult();
 
-            var spec = new ProductWithSpecifications(sort);
+            var spec = new ProductWithSpecifications(sort, brandId, CategoryId);
 
             var pros = await _products.GetAllWithSpecAsync(spec);
             var result = _mapper.Map<IEnumerable< ProductDTO>>(pros);

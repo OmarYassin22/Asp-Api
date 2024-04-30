@@ -16,18 +16,20 @@ namespace Talabat.Repo.Specifications.SpecificationImplementation
             var query = inputQuery;
             if (spec.Condition is not null)
                 query = query.Where(spec.Condition);
-            if (spec?.Includes?.Count > 0)
-                query = spec?.Includes?.Aggregate(query, (currentQuery, NextIncludes) => currentQuery.Include(NextIncludes));
-
-            if (spec?.Order is not null)
+           
+            if (spec.Order is not null)
             {
                 query = query.OrderBy(spec.Order);
 
             }
-            else
+            else if (spec.OrderDesc is not null)
             {
-                query = query.OrderBy(spec.OrderDesc);
+                query = query.OrderByDescending(spec.OrderDesc);
             }
+
+            if (spec?.Includes?.Count > 0)
+                query = spec?.Includes?.Aggregate(query, (currentQuery, NextIncludes) => currentQuery.Include(NextIncludes));
+
             return query;
 
 
