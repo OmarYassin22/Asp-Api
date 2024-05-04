@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Talabat.Access.Models;
 using Talabat.Access.Models.Company;
+using Talabat.Core.Models.Customer;
 using Talabat.presentations.DTOs;
 using static System.Net.WebRequestMethods;
 
@@ -24,6 +25,8 @@ namespace Talabat.presentations.Helpers
              ForMember(d => d.ProductBrand, O => O.MapFrom(s => s.ProductBrand.Name)).
              ForMember(d => d.ProductCategory, O => O.MapFrom(s => s.ProductCategory.Name))
           .ForMember(d => d.PictureUrl, O => O.MapFrom<ProductPictureResolver>());
+            CreateMap<CustomerBasketDto, CustomerBasket>().ReverseMap();
+            CreateMap<BasketItem, BasketItemDto>().ReverseMap();
 
         }
     }

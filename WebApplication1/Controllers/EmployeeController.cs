@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.Access.Models.Company;
 using Talabat.Access.Specifications.CompanySpecification;
-using Talabat.Core.Interfaces.Repository;
 using Talabat.presentaion.Controllers;
 using Talabat.presentations.DTOs;
 using Talabat.presentations.Errors;

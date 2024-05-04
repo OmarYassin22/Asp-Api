@@ -21,3 +21,4 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Core\obj\Debug\
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.AssemblyReference.cache

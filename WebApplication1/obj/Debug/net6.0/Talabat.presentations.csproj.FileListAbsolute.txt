@@ -149,3 +149,5 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\obj\Deb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\obj\Debug\net6.0\ref\Talabat.presentations.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Talabat.Core.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Talabat.Core.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\StackExchange.Redis.dll

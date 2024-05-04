@@ -3,7 +3,7 @@ using Talabat.Access.Specifications.Product;
 using Talabat.Access.Specifications.Product.Classes;
 using Talabat.Access.Specifications.Product.Interfaces;
 
-namespace Talabat.Core.Interfaces.Repository
+namespace Talabat.Core.Interfaces
 {
     public interface IGenericRepository<T> where T : BaseModel
     {

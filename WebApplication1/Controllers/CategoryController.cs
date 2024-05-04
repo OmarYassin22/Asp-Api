@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.Access.Models;
-using Talabat.Core.Interfaces.Repository;
+using Talabat.Core.Interfaces;
 using Talabat.presentaion.Controllers;
 using Talabat.presentations.Errors;
 

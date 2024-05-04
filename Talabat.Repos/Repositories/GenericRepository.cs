@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Talabat.Access.Models;
 using Talabat.Access.Specifications.Product.Interfaces;
-using Talabat.Core.Interfaces.Repository;
 using Talabat.Repos.Data.Contexts;
 using Talabat.Repo.Specifications.SpecificationImplementation;
+using Talabat.Core.Interfaces;
 
 namespace Talabat.Repos.Repositories
 {

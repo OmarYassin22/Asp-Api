@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 using System.Text.Json;
 using Talabat.presentations.Errors;
 using Talabat.presentations.Extentions;
@@ -27,13 +29,18 @@ namespace WebApplication1
 
             });
 
+            WebApplicationBuilder.Services.AddSingleton<IConnectionMultiplexer>(ServiceProvider =>
+            {
 
+                return ConnectionMultiplexer.Connect(WebApplicationBuilder.Configuration.GetConnectionString("Redis"));
+
+            });
 
 
 
             // Add Services Function
             WebApplicationBuilder.Services.AddSevices(WebApplicationBuilder.Configuration);
-
+        
             
             var app = WebApplicationBuilder.Build();
             await AutoMigrateAsync(app);
@@ -76,7 +83,7 @@ namespace WebApplication1
             });
 
 
-
+            
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

@@ -20,4 +20,8 @@
     <ProjectReference Include="..\Talabat.Repos\Talabat.Repo.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Identity\" />
+  </ItemGroup>
+
 </Project>
