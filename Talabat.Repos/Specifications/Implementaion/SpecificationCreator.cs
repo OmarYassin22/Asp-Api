@@ -16,7 +16,6 @@ namespace Talabat.Repo.Specifications.SpecificationImplementation
             var query = inputQuery;
             if (spec.Condition is not null)
                 query = query.Where(spec.Condition);
-           
             if (spec.Order is not null)
             {
                 query = query.OrderBy(spec.Order);
@@ -30,6 +29,8 @@ namespace Talabat.Repo.Specifications.SpecificationImplementation
             if (spec?.Includes?.Count > 0)
                 query = spec?.Includes?.Aggregate(query, (currentQuery, NextIncludes) => currentQuery.Include(NextIncludes));
 
+            if(spec.IsPagination)
+                query = query.Skip(spec.Skip).Take(spec.Take);
             return query;
 
 

@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\extentions\\applicationservicesextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\extentions\\applicationservicesextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\specifications\\productspecification\\productwithfilterationcountspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\specifications\\productspecification\\productwithfilterationcountspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\specifications\\productspecification\\productwithspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\specifications\\productspecification\\productwithspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\specification\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\specification\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\specification\\classes\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\specification\\classes\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +47,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAqwFEAAAARAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADgvyIAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T10:59:46.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationServicesExtention.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Extentions\\ApplicationServicesExtention.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Extentions\\ApplicationServicesExtention.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Extentions\\ApplicationServicesExtention.cs",
-              "RelativeToolTip": "WebApplication1\\Extentions\\ApplicationServicesExtention.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T19:26:37.995Z",
+              "WhenOpened": "2024-05-11T10:31:36.712Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -53,6 +65,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductWithFilterationCountSpec.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithFilterationCountSpec.cs",
+              "RelativeDocumentMoniker": "Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithFilterationCountSpec.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithFilterationCountSpec.cs",
+              "RelativeToolTip": "Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithFilterationCountSpec.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:33:15.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseSpecification.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
+              "RelativeToolTip": "Talabat.Core\\Specification\\Classes\\BaseSpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:57:56.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductWithSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
+              "RelativeDocumentMoniker": "Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
+              "RelativeToolTip": "Talabat.Repos\\Specifications\\ProductSpecification\\ProductWithSpecifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBUAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:34:06.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Talabat.Repos\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Talabat.Repos\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:33:17.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductSpecParams.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Specification\\ProductSpecParams.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Specification\\ProductSpecParams.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Specification\\ProductSpecParams.cs",
+              "RelativeToolTip": "Talabat.Core\\Specification\\ProductSpecParams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:03:26.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Helpers\\Pagination.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Helpers\\Pagination.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Helpers\\Pagination.cs",
+              "RelativeToolTip": "WebApplication1\\Helpers\\Pagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:47:51.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Talabat.Core\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:57:46.635Z",
+              "EditorCaption": ""
             }
           ]
         }

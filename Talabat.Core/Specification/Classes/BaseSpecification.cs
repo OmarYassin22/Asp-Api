@@ -14,13 +14,15 @@ namespace Talabat.Access.Specifications.Product.Classes
         public Expression<Func<T, bool>> Condition { get; set; } = null;
         public List<Expression<Func<T, object>>> Includes { get; set; } = new List<Expression<Func<T, object>>>();
 
-        public Expression<Func<T,object>> Order { get; set; } = null;
+        public Expression<Func<T, object>> Order { get; set; } = null;
         public Expression<Func<T, object>> OrderDesc { get; set; } = null;
-
+        public int Skip { get; set; }
+        public int Take { get; set; }
+        public bool IsPagination { get; set; }
         public BaseSpecification()
         {
-        
-            
+
+
         }
         public BaseSpecification(Expression<Func<T, bool>> expression)
         {
@@ -31,12 +33,17 @@ namespace Talabat.Access.Specifications.Product.Classes
 
         public void SetOrderBy(Expression<Func<T, object>> orderBy)
         {
-            Order=orderBy;
+            Order = orderBy;
         }
-        public void SetOrderByDesc(Expression<Func<T,object>> orderbydesc)
+        public void SetOrderByDesc(Expression<Func<T, object>> orderbydesc)
         {
             OrderDesc = orderbydesc;
         }
-
+        public void ApplyPagination(int skip,int take)
+        {
+            IsPagination = true;
+            Skip = skip;
+            Take = take;
+        }
     }
 }

@@ -11,5 +11,6 @@ namespace Talabat.Core.Interfaces
         Task<T?> GetByIdWithSpecAsync(IBaseSpecification<T> spec);
         Task<IEnumerable<T>> GetAllAsync();
         Task<IEnumerable<T>> GetAllWithSpecAsync(IBaseSpecification<T> spec);
+        Task<int> GetCountAsync(IBaseSpecification<T> spec);
     }
 }

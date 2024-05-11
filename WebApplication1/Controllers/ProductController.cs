@@ -5,6 +5,8 @@ using Talabat.Access.Specifications.ProductSpecification;
 using Talabat.Core.Interfaces;
 using Talabat.presentations.DTOs;
 using Talabat.presentations.Errors;
+using Talabat.presentations.Helpers;
+using Talabat.Repo.Specifications.ProductSpecification;
 using Talabat.Repos.Repositories;
 
 namespace Talabat.presentaion.Controllers
@@ -21,19 +23,18 @@ namespace Talabat.presentaion.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts([FromQuery]string? sort, [FromQuery] int? brandId, [FromQuery] int? CategoryId)
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts([FromQuery]ProductSpecParams specParames)
         {
+       
 
-            //var pros = await _products.GetAllAsync();
 
-            //var result= new JsonResult(product);
-            //var product= new OkResult();
-
-            var spec = new ProductWithSpecifications(sort, brandId, CategoryId);
+            var spec = new ProductWithSpecifications(specParames);
 
             var pros = await _products.GetAllWithSpecAsync(spec);
-            var result = _mapper.Map<IEnumerable< ProductDTO>>(pros);
-
+            var data = _mapper.Map<IReadOnlyList< ProductDTO>>(pros);
+            var countSpec = new ProductWithFilterationCountSpec(specParames);
+            var count =await _products.GetCountAsync(countSpec);
+            var result = new Pagination<ProductDTO>(data, specParames.PageIndex, specParames.PageSize,count);
             return Ok(result);
 
         }

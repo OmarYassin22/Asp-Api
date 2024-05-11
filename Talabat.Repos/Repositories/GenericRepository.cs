@@ -24,7 +24,7 @@ namespace Talabat.Repos.Repositories
             return await context.Set<T>().AsNoTracking().ToListAsync();
         }
 
-    
+
 
         public async Task<T?> GetByIdAsync(int id)
         {
@@ -34,22 +34,29 @@ namespace Talabat.Repos.Repositories
             }
             return await context.Set<T>().FindAsync(id);
         }
-    
+
         public async Task<IEnumerable<T>> GetAllWithSpecAsync(IBaseSpecification<T> spec)
         {
             return await _creatSpec(spec).ToListAsync();
         }
         public async Task<T?> GetByIdWithSpecAsync(IBaseSpecification<T> spec)
         {
-          
+
             return await _creatSpec(spec).FirstOrDefaultAsync();
         }
-    
+        public Task<int> GetCountAsync(IBaseSpecification<T> spec)
+        {
+          
 
-    private IQueryable<T> _creatSpec(IBaseSpecification<T> spec)
+            return _creatSpec(spec).CountAsync();
+        }
+
+        private IQueryable<T> _creatSpec(IBaseSpecification<T> spec)
         {
 
             return SpecificationCreator<T>.CreateQuery(context.Set<T>(), spec);
         }
+
+
     }
 }

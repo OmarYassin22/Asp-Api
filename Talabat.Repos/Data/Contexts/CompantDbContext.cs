@@ -10,7 +10,7 @@ namespace Talabat.Repo.Data.Contexts
 {
     public class CompanyDbContext : DbContext
     {
-        public CompanyDbContext(DbContextOptions options) : base(options)
+        public CompanyDbContext(DbContextOptions<CompanyDbContext> options) : base(options)
         {
         }
 

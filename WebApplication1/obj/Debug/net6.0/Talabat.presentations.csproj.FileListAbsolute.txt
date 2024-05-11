@@ -151,3 +151,8 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Deb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Talabat.Core.pdb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

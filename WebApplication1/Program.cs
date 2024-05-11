@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 using System.Text.Json;
 using Talabat.presentations.Errors;
 using Talabat.presentations.Extentions;
+using Talabat.presentations.Identity;
 using Talabat.Repo.Data.Contexts;
+using Talabat.Repo.Identity;
 using Talabat.Repos.Data.Contexts;
 using Talabat.Repos.Helpers;
 
@@ -35,6 +38,12 @@ namespace WebApplication1
                 return ConnectionMultiplexer.Connect(WebApplicationBuilder.Configuration.GetConnectionString("Redis"));
 
             });
+
+            // Allow Dependancy injection for idetity Package
+            WebApplicationBuilder.Services.AddDbContext<ApplicationIdentityDbContext>(options => {
+                options.UseSqlServer(WebApplicationBuilder.Configuration.GetConnectionString("Identity"));
+            });
+
 
 
 
@@ -111,11 +120,16 @@ namespace WebApplication1
             var context = servies.GetRequiredService<StoreDbContext>();
             var CompanyContext = servies.GetRequiredService<CompanyDbContext>();
             var Ilogger = servies.GetRequiredService<ILoggerFactory>();
+            var Ident = servies.GetRequiredService<ApplicationIdentityDbContext>();
+            
             try
             {
                 await context.Database.MigrateAsync();
                 await CompanyContext.Database.MigrateAsync();
+                await Ident.Database.MigrateAsync();
                 await Data.ReadAsync(context);
+                var _userManger = servies.GetRequiredService<UserManager<ApplicationUser>>();
+               await ApplicationSeeding.UserSeed(_userManger);
             }
             catch (Exception ex)
             {
