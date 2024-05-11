@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Talabat.Core\Talabat.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Identity\Conf\" />
+  </ItemGroup>
+
 </Project>

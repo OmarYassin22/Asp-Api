@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Talabat.Repo.Identity;
 using Microsoft.AspNetCore.Identity;
 using Talabat.presentations.Identity;
+using Talabat.Repo.Identity.Migrations;
 
 namespace Talabat.presentations.Extentions
 {

@@ -7,7 +7,8 @@ using Talabat.presentations.Errors;
 using Talabat.presentations.Extentions;
 using Talabat.presentations.Identity;
 using Talabat.Repo.Data.Contexts;
-using Talabat.Repo.Identity;
+using Talabat.Repo.Identity.DataSeed;
+using Talabat.Repo.Identity.Migrations;
 using Talabat.Repos.Data.Contexts;
 using Talabat.Repos.Helpers;
 
@@ -43,7 +44,6 @@ namespace WebApplication1
             WebApplicationBuilder.Services.AddDbContext<ApplicationIdentityDbContext>(options => {
                 options.UseSqlServer(WebApplicationBuilder.Configuration.GetConnectionString("Identity"));
             });
-
 
 
 
