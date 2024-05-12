@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.Access.Models;
 using Talabat.Access.Specifications.ProductSpecification;
@@ -22,6 +23,8 @@ namespace Talabat.presentaion.Controllers
             _products = Products;
             _mapper = mapper;
         }
+        //[Authorize(AuthenticationSchemes ="Bearer")] //=> not need to determine sechema as we made it deault one in AddAuthentication services
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetAllProducts([FromQuery]ProductSpecParams specParames)
         {
@@ -34,7 +37,7 @@ namespace Talabat.presentaion.Controllers
             var data = _mapper.Map<IReadOnlyList< ProductDTO>>(pros);
             var countSpec = new ProductWithFilterationCountSpec(specParames);
             var count =await _products.GetCountAsync(countSpec);
-            var result = new Pagination<ProductDTO>(data, specParames.PageIndex, specParames.PageSize,count);
+            var result = new PaginationResponse<ProductDTO>(data, specParames.PageIndex, specParames.PageSize,count);
             return Ok(result);
 
         }

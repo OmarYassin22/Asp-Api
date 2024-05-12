@@ -21,3 +21,7 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Deb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\bin\Debug\net6.0\Talabat.Core.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\bin\Debug\net6.0\Talabat.Core.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.AssemblyReference.cache
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net6.0\Talabat..89B18B2E.Up2Date

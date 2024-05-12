@@ -6,9 +6,10 @@ using System.Text.Json;
 using Talabat.presentations.Errors;
 using Talabat.presentations.Extentions;
 using Talabat.presentations.Identity;
+using Talabat.presentations.MiddelWares;
 using Talabat.Repo.Data.Contexts;
+using Talabat.Repo.Identity;
 using Talabat.Repo.Identity.DataSeed;
-using Talabat.Repo.Identity.Migrations;
 using Talabat.Repos.Data.Contexts;
 using Talabat.Repos.Helpers;
 
@@ -40,17 +41,19 @@ namespace WebApplication1
 
             });
 
-            // Allow Dependancy injection for idetity Package
             WebApplicationBuilder.Services.AddDbContext<ApplicationIdentityDbContext>(options => {
                 options.UseSqlServer(WebApplicationBuilder.Configuration.GetConnectionString("Identity"));
             });
 
+            // Allow Dependancy injection for idetity Package
 
 
             // Add Services Function
             WebApplicationBuilder.Services.AddSevices(WebApplicationBuilder.Configuration);
-        
-            
+
+            // add authointication services
+            WebApplicationBuilder.Services.AddAuth(WebApplicationBuilder.Configuration);
+
             var app = WebApplicationBuilder.Build();
             await AutoMigrateAsync(app);
 
@@ -74,10 +77,12 @@ namespace WebApplication1
                 catch (Exception ex)
                 {
                     {
-                        httpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
+
+
+                        
                         httpContext.Response.ContentType = "application/json";
-                        var response = app.Environment.IsDevelopment() ? new ApiException(httpContext.Response.StatusCode, ex.Message
-                            , ex.StackTrace.ToString()) :
+                        var response = app.Environment.IsDevelopment() ? new ApiException(httpContext.Response.StatusCode
+                            , details: ex.StackTrace.ToString()) :
                             new ApiException();
                         // determind json serializer options
                         var option = new JsonSerializerOptions() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };

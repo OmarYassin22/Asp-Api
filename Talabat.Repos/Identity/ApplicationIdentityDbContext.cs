@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.presentations.Identity;
 
-namespace Talabat.Repo.Identity.Migrations
+namespace Talabat.Repo.Identity
 {
     public class ApplicationIdentityDbContext : IdentityDbContext<ApplicationUser>
     {

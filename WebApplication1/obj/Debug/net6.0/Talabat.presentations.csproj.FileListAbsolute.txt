@@ -156,3 +156,7 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Deb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Talabat.Service.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Talabat.Service.pdb

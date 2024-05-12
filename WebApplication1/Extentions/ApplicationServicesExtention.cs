@@ -12,12 +12,17 @@ using Microsoft.EntityFrameworkCore;
 using Talabat.Repo.Identity;
 using Microsoft.AspNetCore.Identity;
 using Talabat.presentations.Identity;
-using Talabat.Repo.Identity.Migrations;
+using Talabat.Core.Interfaces.Auth;
+using Talabat.Service;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Talabat.presentations.Extentions
 {
     public static class ApplicationServicesExtention
     {
+        
         public static IServiceCollection AddSevices(this IServiceCollection services, IConfiguration conf)
         {
             services.AddControllers();
@@ -39,6 +44,7 @@ namespace Talabat.presentations.Extentions
             // change build-in validation handeler
             services.Configure<ApiBehaviorOptions>(options =>
             {
+
                 options.InvalidModelStateResponseFactory = (actioncontext) =>
                 {
 
@@ -58,19 +64,59 @@ namespace Talabat.presentations.Extentions
             });
 
 
-         
+
             // normal depenpany injection
-            services.AddScoped<IBasketRepostory,BasketRepository>();
+            services.AddScoped<IBasketRepostory, BasketRepository>();
             // Generic depenpany injection
             services.AddScoped(typeof(IBasketRepostory), typeof(BasketRepository));
 
 
             //register identity services
-            services.AddIdentity<ApplicationUser, IdentityRole>(options => {}).
+            services.AddIdentity<ApplicationUser, IdentityRole>(options => { }).
                 // add identy store => needed with usermanger
                 AddEntityFrameworkStores<ApplicationIdentityDbContext>();
-            
 
+       
+
+            // Authontication services
+            services.AddScoped(typeof(IAuthServices), typeof(AuthServices));
+
+
+
+            return services;
+
+        }
+
+
+        public static IServiceCollection AddAuth(this IServiceCollection services, IConfiguration conf)
+        {
+
+            // enable token handler
+            services.AddAuthentication(options =>
+            {
+                // determine default schema tokens
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                // determine default schema for endpoints
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+                // handle to
+                .AddJwtBearer(options =>
+                {
+
+                    options.TokenValidationParameters = new TokenValidationParameters()
+                    {
+                        ValidateIssuer = true,
+                        ValidIssuer = conf["jwt:Issuer"],
+                        ValidateAudience = true,
+                        ValidAudience = conf["jwt:Audience"],
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(conf["jwt:SecurityKey"])),
+                        ValidateLifetime = true,
+                        ClockSkew = TimeSpan.Zero
+
+                    };
+
+                });
             return services;
 
         }

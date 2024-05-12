@@ -2,9 +2,9 @@
 
 namespace Talabat.presentations.Helpers
 {
-    public class Pagination<T> 
+    public class PaginationResponse<T> 
     {
-        public Pagination(IReadOnlyList<T> data, int pageIndex, int pageSize,int count)
+        public PaginationResponse(IReadOnlyList<T> data, int pageIndex, int pageSize,int count)
         {
             Data = data;
             Index = pageIndex;
