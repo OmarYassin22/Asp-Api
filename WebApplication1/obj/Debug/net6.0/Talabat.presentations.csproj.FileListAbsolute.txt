@@ -160,3 +160,7 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Deb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Talabat.Service.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Talabat.Service.pdb
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

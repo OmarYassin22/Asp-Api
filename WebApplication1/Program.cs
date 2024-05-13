@@ -21,6 +21,7 @@ namespace WebApplication1
         {
             var WebApplicationBuilder = WebApplication.CreateBuilder(args);
 
+
             // Add services to the container.
             WebApplicationBuilder.Services.AddEndpointsApiExplorer();
             WebApplicationBuilder.Services.AddDbContext<StoreDbContext>(option =>
@@ -65,10 +66,10 @@ namespace WebApplication1
             // exception meddleware must be first middleware
             //
             // By-Convension/By-Factory
-            //app.UseMiddleware<ExceptionMiddleware>();
+            app.UseMiddleware<ExceptionMiddleware>();
             
             //Request Delegate
-            app.Use(async (httpContext, _next) => {
+          /*  app.Use(async (httpContext, _next) => {
 
                 try
                 {
@@ -94,7 +95,7 @@ namespace WebApplication1
 
 
                 }
-            });
+            });*/
 
 
             
@@ -108,6 +109,7 @@ namespace WebApplication1
 
             app.UseStaticFiles();
 
+            app.MapControllers();
             app.MapControllers();
 
 

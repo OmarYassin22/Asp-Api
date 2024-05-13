@@ -17,6 +17,7 @@ using Talabat.Service;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Newtonsoft.Json;
 
 namespace Talabat.presentations.Extentions
 {
@@ -25,7 +26,12 @@ namespace Talabat.presentations.Extentions
         
         public static IServiceCollection AddSevices(this IServiceCollection services, IConfiguration conf)
         {
-            services.AddControllers();
+            services.AddControllers()
+                // NewtonsoftJson => Package to handle reference looping(two navigatyoin prop)
+                .AddNewtonsoftJson(options => { 
+            // Ignore ==> to show navigation prop once and stop
+            options.SerializerSettings.ReferenceLoopHandling=ReferenceLoopHandling.Ignore;
+            });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddSwaggerGen();
 
@@ -102,7 +108,7 @@ namespace Talabat.presentations.Extentions
                 // handle to
                 .AddJwtBearer(options =>
                 {
-
+                   
                     options.TokenValidationParameters = new TokenValidationParameters()
                     {
                         ValidateIssuer = true,

@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\middelwares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\middelwares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681A2F54-46B0-4418-A6DC-4FB5D008AE13}|Talabat.Service\\Talabat.Service.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.service\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681A2F54-46B0-4418-A6DC-4FB5D008AE13}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\extentions\\applicationservicesextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\extentions\\applicationservicesextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\interfaces\\auth\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\interfaces\\auth\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAApwEoAAAAUAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T10:37:54.44Z",
               "IsPinned": true,
@@ -59,55 +55,33 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthServices.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Interfaces\\Auth\\IAuthServices.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Interfaces\\Auth\\IAuthServices.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Interfaces\\Auth\\IAuthServices.cs",
-              "RelativeToolTip": "Talabat.Core\\Interfaces\\Auth\\IAuthServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:43:29.33Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAASAAAA",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T12:45:46.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAADgv1AAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T12:45:46.86Z",
+              "WhenOpened": "2024-05-13T20:54:04.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthServices.cs",
-              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\AuthServices.cs",
-              "RelativeDocumentMoniker": "Talabat.Service\\AuthServices.cs",
-              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\AuthServices.cs",
-              "RelativeToolTip": "Talabat.Service\\AuthServices.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIA3wBoAAAAMAAAA",
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\DTOs\\AddressDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\AddressDto.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\DTOs\\AddressDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTOs\\AddressDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T12:45:46.885Z",
+              "WhenOpened": "2024-05-13T20:52:40.974Z",
               "EditorCaption": ""
             },
             {
@@ -118,9 +92,22 @@
               "RelativeDocumentMoniker": "WebApplication1\\Extentions\\ApplicationServicesExtention.cs",
               "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Extentions\\ApplicationServicesExtention.cs",
               "RelativeToolTip": "WebApplication1\\Extentions\\ApplicationServicesExtention.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAAwHUAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T12:33:14.266Z",
+              "WhenOpened": "2024-05-13T20:41:56.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAgwGsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:45:46.86Z",
               "EditorCaption": ""
             }
           ]

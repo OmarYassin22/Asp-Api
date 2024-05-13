@@ -6,6 +6,6 @@ namespace Talabat.presentations.Identity
     {
         public string? DisplayName { get; set; } = null!;
         public Address Address { get; set; } = null;
-
+        
     }
 }

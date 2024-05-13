@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +9,7 @@ using Talabat.Core.Interfaces.Auth;
 using Talabat.presentaion.Controllers;
 using Talabat.presentations.DTOs;
 using Talabat.presentations.Errors;
+using Talabat.presentations.Extentions;
 using Talabat.presentations.Identity;
 
 namespace Talabat.presentations.Controllers
@@ -77,18 +77,44 @@ namespace Talabat.presentations.Controllers
         }
         [Authorize]
         [HttpGet]
-        public async Task<ActionResult<UserDto>> GetCuerrentUsre()
+        public async Task<ActionResult<UserDto>> GetCuerrentUser()
         {
 
 
             var email = User.FindFirstValue(ClaimTypes.Email);
+
             var user = await _userManager.FindByEmailAsync(email);
 
-            var response = _mapper.Map<ApplicationUser,UserDto>(user);
-            response.Token= await _authServices.GetTokenAsync(user,_userManager);
+            var response = _mapper.Map<ApplicationUser, UserDto>(user);
+            response.Token = await _authServices.GetTokenAsync(user, _userManager);
             return response;
 
 
+        }
+        [Authorize]
+        [HttpGet("address")]
+        public async Task<ActionResult<Address>> GetCurrentUserAddress()
+        {
+
+            var user = await _userManager.FindUserWithAddressAsync(User);
+           
+
+            return Ok(user.Address);
+        }
+
+        [Authorize]
+        [HttpPut("address")]
+        public async Task<ActionResult<AddressDto>> upadteCurrentUserAddress(AddressDto model)
+        {
+            var user = await _userManager.FindUserWithAddressAsync(User);
+            var address = _mapper.Map<Address>(model);
+            // Take previous Id into new Address
+            address.Id = user.Address.Id;
+            // Update Address
+            user.Address = address;
+            var response =await _userManager.UpdateAsync(user);
+            if (!response.Succeeded) return BadRequest(new ApiValidations() { Details = response.Errors.Select(e => e.Description).ToList() });
+            return Ok(_mapper.Map<AddressDto>(user.Address));
         }
     }
 }

@@ -29,7 +29,7 @@ namespace Talabat.presentations.Helpers
             CreateMap<CustomerBasketDto, CustomerBasket>().ReverseMap();
             CreateMap<BasketItem, BasketItemDto>().ReverseMap();
             CreateMap<ApplicationUser, UserDto>().ReverseMap();
-
+            CreateMap<Address,AddressDto>().ReverseMap();
         }
     }
 }

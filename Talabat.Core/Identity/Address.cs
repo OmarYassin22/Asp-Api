@@ -13,5 +13,11 @@ namespace Talabat.presentations.Identity
         public string Country { get; set; } = null!;
         public string ApplicationUserId { get; set; }
         public ApplicationUser User { get; set; } = null!;
+
+
+        public override string ToString()
+        {
+            return $"{FirstName}/{ LastName}: {Street}-{City}-{Country}";
+        }
     }
 }

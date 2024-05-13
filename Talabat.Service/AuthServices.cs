@@ -49,7 +49,6 @@ namespace Talabat.Service
                 signingCredentials: new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature)
                 );
             // create final token 
-
             return new JwtSecurityTokenHandler().WriteToken(tokenParts);
 
         }
