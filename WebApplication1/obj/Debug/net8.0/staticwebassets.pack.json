@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-core1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\hat-core1.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-react1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\hat-react1.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-react2.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\hat-react2.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ang1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-ang1.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ang2.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-ang2.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-core1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-core1.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-core2.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-core2.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-react1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-react1.png"
+    },
+    {
+      "Id": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ts1.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\sb-ts1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Talabat.presentations.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Talabat.presentations.props",
+      "PackagePath": "build\\Talabat.presentations.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Talabat.presentations.props",
+      "PackagePath": "buildMultiTargeting\\Talabat.presentations.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Talabat.presentations.props",
+      "PackagePath": "buildTransitive\\Talabat.presentations.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
