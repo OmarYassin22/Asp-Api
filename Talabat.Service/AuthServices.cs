@@ -26,8 +26,8 @@ namespace Talabat.Service
             // private claims
             var AuthClaims = new List<Claim>()
           {
-              new Claim(ClaimTypes.Name,user.DisplayName),
-              new Claim(ClaimTypes.Email,user.Email),
+              new Claim(ClaimTypes.Name,user.DisplayName??string.Empty),
+              new Claim(ClaimTypes.Email,user.Email??string.Empty),
           };
             var userRoles = await userManager.GetRolesAsync(user);
             foreach (var role in userRoles)
@@ -36,14 +36,14 @@ namespace Talabat.Service
             }
 
             //Security key
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["jwt:SecurityKey"]));
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["jwt:SecurityKey"] ?? string.Empty));
 
             //parts of token
             var tokenParts = new JwtSecurityToken(
                 //payload
                 audience: user.DisplayName,
                 issuer: _configuration["jwt:Issuer"],
-                expires: DateTime.Now.AddDays(double.Parse(_configuration["jwt:Duration"])),
+                expires: DateTime.Now.AddDays(double.Parse(_configuration["jwt:Duration"] ?? string.Empty)),
                 claims: AuthClaims,
                 // Header + singture
                 signingCredentials: new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature)

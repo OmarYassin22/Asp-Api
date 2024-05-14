@@ -108,7 +108,7 @@ namespace Talabat.presentations.Extentions
                 // handle to
                 .AddJwtBearer(options =>
                 {
-                   
+
                     options.TokenValidationParameters = new TokenValidationParameters()
                     {
                         ValidateIssuer = true,
@@ -116,7 +116,7 @@ namespace Talabat.presentations.Extentions
                         ValidateAudience = true,
                         ValidAudience = conf["jwt:Audience"],
                         ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(conf["jwt:SecurityKey"])),
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(conf["jwt:SecurityKey"] ?? string.Empty)),
                         ValidateLifetime = true,
                         ClockSkew = TimeSpan.Zero
 

@@ -14,3 +14,5 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Deb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net8.0\refint\Talabat.Service.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net8.0\Talabat.Service.pdb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\obj\Debug\net8.0\ref\Talabat.Service.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\bin\Debug\net8.0\Talabat.Repo.dll
+C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\Talabat.Service\bin\Debug\net8.0\Talabat.Repo.pdb

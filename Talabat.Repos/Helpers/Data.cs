@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Talabat.Access.Models;
+using Talabat.Core.Models.Oreder_Aggregate;
 using Talabat.Repos.Data.Contexts;
 
 namespace Talabat.Repos.Helpers
@@ -65,6 +66,23 @@ namespace Talabat.Repos.Helpers
 
 
             }
+            if(context.DeliveryMethods?.Count() == 0)
+            {
+
+                var r= Directory.GetCurrentDirectory();
+        var data = File.ReadAllText( "../Talabat.Repos/Data/InitalData/delivery.json");
+                var delivey= JsonSerializer.Deserialize<List< DeliveryMethod>>(data);
+                if (delivey is not null)
+                { 
+                    foreach (var item in delivey)
+                    {
+                        context.Add(item);
+                        
+                    }
+                    context.SaveChanges();
+                }
+
+            } 
 
         }
     }

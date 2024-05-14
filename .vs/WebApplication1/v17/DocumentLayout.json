@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{681A2F54-46B0-4418-A6DC-4FB5D008AE13}|Talabat.Service\\Talabat.Service.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.service\\orderservices\\orderservcies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681A2F54-46B0-4418-A6DC-4FB5D008AE13}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\orderservices\\orderservcies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.repos\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D523834-1193-48E4-A5FF-C1F1B9102877}|Talabat.Repos\\Talabat.Repo.csproj|solutionrelative:talabat.repos\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\models\\oreder aggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\models\\oreder aggregate\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.core\\interfaces\\iorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040073F8-D035-4F91-A7F2-AF9B4DA4F659}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\interfaces\\iorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8ED10-DE8B-4031-9B7D-94F46D9802E3}|WebApplication1\\Talabat.presentations.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681A2F54-46B0-4418-A6DC-4FB5D008AE13}|Talabat.Service\\Talabat.Service.csproj|c:\\users\\omar y. sleem\\source\\repos\\omaryassin22\\asp-api\\talabat.service\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681A2F54-46B0-4418-A6DC-4FB5D008AE13}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderServcies.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\OrderServices\\OrderServcies.cs",
+              "RelativeDocumentMoniker": "Talabat.Service\\OrderServices\\OrderServcies.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\OrderServices\\OrderServcies.cs",
+              "RelativeToolTip": "Talabat.Service\\OrderServices\\OrderServcies.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:46:23.285Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
@@ -22,6 +61,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "Talabat.Repos\\Repositories\\BasketRepository.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "Talabat.Repos\\Repositories\\BasketRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:54:27.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Oreder Aggregate\\Order.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Models\\Oreder Aggregate\\Order.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Models\\Oreder Aggregate\\Order.cs",
+              "RelativeToolTip": "Talabat.Core\\Models\\Oreder Aggregate\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:51:33.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAApwIQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:49:07.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\AuthServices.cs",
+              "RelativeDocumentMoniker": "Talabat.Service\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\AuthServices.cs",
+              "RelativeToolTip": "Talabat.Service\\AuthServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:46:07.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Interfaces\\IOrderServices.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Interfaces\\IOrderServices.cs",
+              "ToolTip": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Interfaces\\IOrderServices.cs",
+              "RelativeToolTip": "Talabat.Core\\Interfaces\\IOrderServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:44:02.653Z",
+              "EditorCaption": ""
             }
           ]
         }
