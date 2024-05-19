@@ -23,7 +23,7 @@ namespace Talabat.presentations.Controllers
 
         [HttpGet]
         [ProducesResponseType(typeof(ApiResponease), StatusCodes.Status404NotFound)]
-        [ProducesResponseType(typeof(BasketRepository), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(IBasketRepostory), StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<CustomerBasketDto>>> Get(string id)
         {
 

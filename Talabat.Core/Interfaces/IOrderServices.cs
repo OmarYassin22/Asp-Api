@@ -9,6 +9,9 @@ namespace Talabat.Core.Interfaces
 {
     public interface IOrderServices
     {
-        Task<Order> CreateOderAsync(string BasketId, string BuyerEmai, Address address);
+        Task<Order?> CreateOderAsync(string BasketId, OrderAddress address,string BuyerEmail,int delevalryMethodID);
+         Task<IEnumerable<Order>> GetOrdersAsync(string UserEmail);
+        Task<Order> GetOrderAsync(string UserEmail, int id);
+        Task<IReadOnlyList<DeliveryMethod>> GetDilevaryMethodAsync();
     }
 }

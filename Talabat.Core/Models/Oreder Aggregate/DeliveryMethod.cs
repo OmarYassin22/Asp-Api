@@ -7,10 +7,10 @@ using Talabat.Access.Models;
 
 namespace Talabat.Core.Models.Oreder_Aggregate
 {
-    public class DeliveryMethod
+    public class DeliveryMethod:BaseModel
     {
-        public int Id { get; set; }
-        public string ShortName { get; set; } = null!;
+        public string ShortName { get; set; }
+
         public string Description { get; set; } = null!;
         public decimal Cost { get; set; }
 

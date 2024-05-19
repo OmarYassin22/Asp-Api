@@ -5,11 +5,24 @@ namespace Talabat.Core.Models.Oreder_Aggregate
 {
     public class Order : BaseModel
     {
+        public Order(string buyerEmail, OrderAddress shippingAddress, DeliveryMethod deliveryMethod, ICollection<OrderItem> items, decimal subTotal)
+        {
+            BuyerEmail = buyerEmail;
+            ShippingAddress = shippingAddress;
+            DeliveryMethod = deliveryMethod;
+            Items = items;
+            SubTotal = subTotal;
+        }
+        public Order()
+        {
+            
+        }
+
         public string BuyerEmail { get; set; } = null!;
-        public DateTimeOffset Date { get; set; } = DateTimeOffset.UtcNow;
+        public DateTimeOffset OrderDate { get; set; } = DateTimeOffset.UtcNow;
         public OrderStatus Status { get; set; }
-        public Address ShippingAddress { get; set; } = null!;
-        //public int DelliveryMethodId { get; set; }//ForginKey
+        public OrderAddress ShippingAddress { get; set; } = null!;
+        public int DeliveryMethodId { get; set; }//ForginKey
         public DeliveryMethod? DeliveryMethod { get; set; } = null!;
         public ICollection<OrderItem> Items { get; set; } = new HashSet<OrderItem>();
         public decimal SubTotal { get; set; }

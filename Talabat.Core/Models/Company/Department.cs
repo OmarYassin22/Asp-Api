@@ -10,5 +10,7 @@ namespace Talabat.Access.Models.Company
     //[Table("Department", Schema ="Company")]
     public class Department:BaseModel
     {
+        public string Name { get; set; }
+
     }
 }

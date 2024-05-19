@@ -11,6 +11,8 @@ namespace Talabat.Access.Models
 
     public class Brand:BaseModel
     {
+        public string Name { get; set; }
+
 
     }
 }

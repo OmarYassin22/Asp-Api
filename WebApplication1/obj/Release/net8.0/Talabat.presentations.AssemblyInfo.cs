@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Talabat.presentations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b286ccc95283f0ee5d3df88364190340675d91cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+415fe89a99083875647ec21cb81c28aec2cc4ae5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Talabat.presentations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Talabat.presentations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

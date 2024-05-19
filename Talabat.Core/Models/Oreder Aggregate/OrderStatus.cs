@@ -9,9 +9,11 @@ namespace Talabat.Core.Models.Oreder_Aggregate
 {
     public enum OrderStatus
     {
-        //[EnumMember(Value ="pending")]
+        [EnumMember(Value = "pending")]   
         Pending,
+        [EnumMember(Value = "Payment Recived")]
         PaymentRecived,
+        [EnumMember(Value = "Payment Faild")]
         PaymentFaild,
 
     }

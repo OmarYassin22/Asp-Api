@@ -18,6 +18,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Newtonsoft.Json;
+using Talabat.Service.OrderServices;
 
 namespace Talabat.presentations.Extentions
 {
@@ -41,8 +42,9 @@ namespace Talabat.presentations.Extentions
             services.AddScoped(typeof(GenericRepository<>));
             services.AddScoped(typeof(GenericRepository<Employee>));
             services.AddScoped(typeof(EmployeeReps));
-
+            services.AddScoped(typeof(IUnitOFWork), typeof(UnitOfWork));
             services.AddAutoMapper(typeof(MappingProfile));
+            services.AddScoped(typeof(IOrderServices), typeof(OrderServcies));
 
             services.AddAutoMapper(m => m.AddProfile(new MappingProfile(conf)));
 
@@ -72,7 +74,7 @@ namespace Talabat.presentations.Extentions
 
 
             // normal depenpany injection
-            services.AddScoped<IBasketRepostory, BasketRepository>();
+            //services.AddScoped<IBasketRepostory, BasketRepository>();
             // Generic depenpany injection
             services.AddScoped(typeof(IBasketRepostory), typeof(BasketRepository));
 

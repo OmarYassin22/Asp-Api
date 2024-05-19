@@ -12,5 +12,10 @@ namespace Talabat.Core.Interfaces
         Task<IEnumerable<T>> GetAllAsync();
         Task<IEnumerable<T>> GetAllWithSpecAsync(IBaseSpecification<T> spec);
         Task<int> GetCountAsync(IBaseSpecification<T> spec);
+        public Task<List<T>> GetOrdersAsync(string UserEmail);
+
+        void Add(T entity);
+        void Update(T entity);
+        void Delete(T entity);
     }
 }

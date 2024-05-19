@@ -115,6 +115,9 @@ namespace Talabat.Repos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ShortName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -136,15 +139,14 @@ namespace Talabat.Repos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTimeOffset>("Date")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<int?>("DeliveryMethodId")
+                    b.Property<int>("DeliveryMethodId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTimeOffset>("OrderDate")
+                        .HasColumnType("datetimeoffset");
 
                     b.Property<string>("PaymentIntentId")
                         .IsRequired()
@@ -173,7 +175,6 @@ namespace Talabat.Repos.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("OrderId")
@@ -214,18 +215,15 @@ namespace Talabat.Repos.Migrations
                     b.HasOne("Talabat.Core.Models.Oreder_Aggregate.DeliveryMethod", "DeliveryMethod")
                         .WithMany()
                         .HasForeignKey("DeliveryMethodId")
-                        .OnDelete(DeleteBehavior.SetNull);
+                        .OnDelete(DeleteBehavior.SetNull)
+                        .IsRequired();
 
-                    b.OwnsOne("Talabat.Core.Models.Oreder_Aggregate.Address", "ShippingAddress", b1 =>
+                    b.OwnsOne("Talabat.Core.Models.Oreder_Aggregate.OrderAddress", "ShippingAddress", b1 =>
                         {
                             b1.Property<int>("OrderId")
                                 .HasColumnType("int");
 
                             b1.Property<string>("City")
-                                .IsRequired()
-                                .HasColumnType("nvarchar(max)");
-
-                            b1.Property<string>("Coountry")
                                 .IsRequired()
                                 .HasColumnType("nvarchar(max)");
 
@@ -238,6 +236,10 @@ namespace Talabat.Repos.Migrations
                                 .HasColumnType("nvarchar(max)");
 
                             b1.Property<string>("Street")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b1.Property<string>("country")
                                 .IsRequired()
                                 .HasColumnType("nvarchar(max)");
 

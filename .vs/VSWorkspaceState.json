@@ -3,10 +3,13 @@
     "",
     "\\Talabat.Core",
     "\\Talabat.Core\\Models",
+    "\\Talabat.Service",
+    "\\Talabat.Service\\OrderServices",
     "\\WebApplication1",
     "\\WebApplication1\\Controllers",
-    "\\WebApplication1\\DTOs"
+    "\\WebApplication1\\DTOs",
+    "\\WebApplication1\\MiddelWares"
   ],
-  "SelectedNode": "\\WebApplication1.sln",
+  "SelectedNode": "\\WebApplication1\\MiddelWares\\ExceptionMiddleware.cs",
   "PreviewInSolutionExplorer": false
 }
