@@ -5,9 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Talabat.Access.Models;
+using Talabat.Access.Specifications.Product.Interfaces;
 using Talabat.Access.Specifications.ProductSpecification;
 using Talabat.Core.Interfaces;
 using Talabat.presentations.Helpers;
+using Talabat.Repo.Specifications.ProductSpecification;
 
 namespace Talabat.Service.ProductServices
 {
@@ -17,23 +19,37 @@ namespace Talabat.Service.ProductServices
 
         public ProductServics(IUnitOFWork unitOFWork)
         {
-            unitOFWork = unitOFWork;
+            _unitOFWork = unitOFWork;
         }
         public Task<Product> GetProductAsync(int Id)
         {
-            /*  var products = _unitOFWork.Repository<Product>();
-              var spec = new ProductWithSpecifications(new ProductSpecParams());
-              var result = products.GetByIdWithSpecAsync(spec);
-              if (result is null) return null;
-              return result
+            var products = _unitOFWork.Repository<Product>();
+            var spec=new ProductWithSpecifications(Id);
 
-              throw new NotImplementedException();*/
-            throw new NotImplementedException();
+            var result = products.GetByIdWithSpecAsync(spec);
+            if (result is null) return null;
+            return result;
+
         }
 
-        public Task<IReadOnlyList<Product>> GetProductsAsync()
+        public async Task<int> GetProductCount(ProductSpecParams param)
         {
-            throw new NotImplementedException();
+            var product=_unitOFWork.Repository<Product>();
+
+            var countSpec = new ProductWithFilterationCountSpec(param);
+
+            return await product.GetCountAsync(countSpec);
         }
+
+        public async Task<IReadOnlyList<Product>> GetProductsAsync(ProductSpecParams param)
+        {
+            var products = _unitOFWork.Repository<Product>();
+            var spec = new ProductWithSpecifications(param);
+            var result = await products.GetAllWithSpecAsync(spec);
+            if (result is null) return null;
+            return result as IReadOnlyList<Product> ;
+        }
+
+      
     }
 }

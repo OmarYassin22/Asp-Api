@@ -11,20 +11,22 @@ using Talabat.Repos.Data.Contexts;
 namespace Talabat.presentations.Controllers
 {
 
-    public class BrandController : BaseAPIController
+    public class BrandsController : BaseAPIController
     {
-        private readonly IGenericRepository<Brand> _context;
+        //private readonly IGenericRepository<Brand> _context;
+        private readonly IBrandServieces _brandServieces;
 
-        public BrandController(IGenericRepository<Brand> context)
+        public BrandsController(/*IGenericRepository<Brand> context*/ IBrandServieces brandServieces)
         {
-            _context = context;
+            //_context = context;
+            _brandServieces = brandServieces;
         }
         [HttpGet]
         public async Task< ActionResult<IEnumerable<Brand>>> GetAll()
         {
 
-            var spec= new BaseSpecification<Brand>();  
-            var result = await _context.GetAllWithSpecAsync(spec);
+            
+            var result = await _brandServieces.GetBrandsAsync();
             if (result is not null)
 
                 return Ok(result);
@@ -35,8 +37,8 @@ namespace Talabat.presentations.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Brand>> Get(int id)
         {
-            var spec = new BaseSpecification<Brand>(c=>c.Id==id);
-            var result = await _context.GetByIdWithSpecAsync(spec);
+            
+            var result = await _brandServieces.GetBrandAsync(id);
             if (result is not null)
                 return Ok(result); 
             return BadRequest(new ApiResponease(400).ToString());
