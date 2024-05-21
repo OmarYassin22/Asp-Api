@@ -3063,9 +3063,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
+      "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
       "projectName": "Talabat.Repo",
-      "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
+      "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
       "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\obj\\",
       "projectStyle": "PackageReference",
@@ -3084,8 +3084,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
-              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
+            "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
+              "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
             }
           }
         }

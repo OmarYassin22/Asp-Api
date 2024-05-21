@@ -29,7 +29,7 @@ namespace Talabat.presentations.MiddelWares
             {
                 {
                     httpContext.Response.ContentType = "application/json";
-                    var response = _env.IsDevelopment() ? new ApiException(httpContext.Response.StatusCode
+                    var response = _env.IsDevelopment() ? new ApiException(httpContext.Response.StatusCode,Message:ex.Message
                         , details:ex.StackTrace.ToString()) :
                         new ApiException();
                     // determind json serializer options

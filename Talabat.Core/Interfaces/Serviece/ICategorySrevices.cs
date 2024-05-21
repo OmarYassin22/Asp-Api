@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.Access.Models;
 
-namespace Talabat.Core.Interfaces
+namespace Talabat.Core.Interfaces.Serviece
 {
     public interface ICategorySrevices
     {

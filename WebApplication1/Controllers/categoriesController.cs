@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Talabat.Access.Models;
 using Talabat.Access.Specifications.Product.Classes;
-using Talabat.Core.Interfaces;
+using Talabat.Core.Interfaces.Serviece;
 using Talabat.presentaion.Controllers;
 using Talabat.presentations.Errors;
 

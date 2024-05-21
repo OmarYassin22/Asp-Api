@@ -8,6 +8,7 @@ using Talabat.Access.Models;
 using Talabat.Access.Specifications.Product.Interfaces;
 using Talabat.Access.Specifications.ProductSpecification;
 using Talabat.Core.Interfaces;
+using Talabat.Core.Interfaces.Serviece;
 using Talabat.presentations.Helpers;
 using Talabat.Repo.Specifications.ProductSpecification;
 

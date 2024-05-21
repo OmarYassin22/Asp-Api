@@ -20,6 +20,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Newtonsoft.Json;
 using Talabat.Service.OrderServices;
 using Talabat.Service.ProductServices;
+using Talabat.Core.Interfaces.Serviece;
+using Talabat.Service.PaymentService;
 
 namespace Talabat.presentations.Extentions
 {
@@ -49,6 +51,7 @@ namespace Talabat.presentations.Extentions
             services.AddScoped(typeof(IProductServices), typeof(ProductServics));
             services.AddScoped(typeof(ICategorySrevices), typeof(CategoryServices));
             services.AddScoped(typeof(IBrandServieces), typeof(BrandServices));
+            services.AddScoped(typeof(IPaymentService), typeof(PaymentService));
 
             services.AddAutoMapper(m => m.AddProfile(new MappingProfile(conf)));
 

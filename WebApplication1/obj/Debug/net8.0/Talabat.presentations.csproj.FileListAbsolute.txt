@@ -157,3 +157,4 @@ C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Deb
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Omar Y. Sleem\Source\Repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Omar Y. Sleem\source\repos\OmarYassin22\Asp-Api\WebApplication1\bin\Debug\net8.0\Stripe.net.dll

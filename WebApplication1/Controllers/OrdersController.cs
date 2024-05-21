@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using System.Text.Json;
-using Talabat.Core.Interfaces;
+using Talabat.Core.Interfaces.Serviece;
 using Talabat.Core.Models.Oreder_Aggregate;
 using Talabat.presentaion.Controllers;
 using Talabat.presentations.DTOs;

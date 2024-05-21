@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj": {}
+    "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
+    "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
         "projectName": "Talabat.Core",
-        "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
+        "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj",
         "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\obj\\",
+        "outputPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omar Y. Sleem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj": {
+    "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
+        "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
         "projectName": "Talabat.Repo",
-        "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
+        "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj",
         "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\obj\\",
+        "outputPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omar Y. Sleem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
-                "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
+              "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
+                "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj": {
+    "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj",
         "projectName": "Talabat.Service",
-        "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj",
+        "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj",
         "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\obj\\",
+        "outputPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omar Y. Sleem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,11 +172,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
-                "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
+              "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
+                "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
               },
-              "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj": {
-                "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj"
+              "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj": {
+                "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj"
               }
             }
           }
@@ -199,6 +199,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[44.8.0, )"
             }
           },
           "imports": [

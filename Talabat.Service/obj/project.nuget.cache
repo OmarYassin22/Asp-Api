@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9py1MJH7mu8weXklnsqpVkzyGBI/NDBhaxSTjDtR8jhTGPntcsjma6eIyN1A9gHfyQRe/hrExMmmpncAz/5ohg==",
+  "dgSpecHash": "PxWkol+rBUQGf8FZQbjhEojAnAHaeQgYaNxfTpZFXuZ2r59JrNgq31gg7Tc3ud+Eepzco0X16amkcHwaTjUR0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj",
+  "projectFilePath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -39,8 +39,10 @@
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\stackexchange.redis\\2.7.33\\stackexchange.redis.2.7.33.nupkg.sha512",
+    "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\stripe.net\\44.8.0\\stripe.net.44.8.0.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",

@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Talabat.Core",
-    "\\Talabat.Core\\Models",
     "\\Talabat.Service",
-    "\\Talabat.Service\\OrderServices",
-    "\\Talabat.Service\\ProductServices",
-    "\\WebApplication1",
-    "\\WebApplication1\\Controllers",
-    "\\WebApplication1\\DTOs",
-    "\\WebApplication1\\MiddelWares"
+    "\\Talabat.Service\\ProductServices"
   ],
-  "SelectedNode": "\\WebApplication1.sln",
+  "SelectedNode": "\\Talabat.Service\\ProductServices\\ProductServics.cs",
   "PreviewInSolutionExplorer": false
 }

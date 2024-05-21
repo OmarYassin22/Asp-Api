@@ -14,12 +14,9 @@ namespace Talabat.Repo.Repositories
             _redis = redis.GetDatabase();
         }
         public async Task<bool> DeleteBasketAsync(string id)
-        {
+       => await _redis.KeyDeleteAsync(id);
 
-            
-            return await _redis.KeyDeleteAsync(id);
-
-        }
+        
 
         public async Task<CustomerBasket?> GetBasketAsync(string id)
         {

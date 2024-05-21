@@ -9,6 +9,7 @@
       "Talabat.Service/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.5",
+          "Stripe.net": "44.8.0",
           "Talabat.Core": "1.0.0",
           "Talabat.Repo": "1.0.0"
         },
@@ -397,6 +398,14 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "dependencies": {
           "System.IO.Pipelines": "5.0.1"
@@ -417,6 +426,18 @@
           "lib/net6.0/StackExchange.Redis.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.7.33.41805"
+          }
+        }
+      },
+      "Stripe.net/44.8.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "44.8.0.0",
+            "fileVersion": "44.8.0.0"
           }
         }
       },
@@ -854,6 +875,13 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",
       "serviceable": true,
@@ -867,6 +895,13 @@
       "sha512": "sha512-2kCX5fvhEE824a4Ab5Imyi8DRuGuTxyklXV01kegkRpsWJcPmO6+GAQ+HegKxvXAxlXZ8yaRspvWJ8t3mMClfQ==",
       "path": "stackexchange.redis/2.7.33",
       "hashPath": "stackexchange.redis.2.7.33.nupkg.sha512"
+    },
+    "Stripe.net/44.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S1y1WQ+W7zM4Ze//Q0r9cpvTGmn93gFPshgqXS3jPvnununX9FmqZYaIb9GUIv8f0VcRtujInOG2qS4jwsEzJg==",
+      "path": "stripe.net/44.8.0",
+      "hashPath": "stripe.net.44.8.0.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/6.0.1": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zWCPaupBAUDUzwWD8X03O4sdTgVkTSKICRbeJD4pSxc=",
+  "Hash": "mdIVMWSI5pUUxE4J+G4GtD6dv+ocDsTRZXQgtK9pY9U=",
   "Source": "Talabat.presentations",
   "BasePath": "_content/Talabat.presentations",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Talabat.presentations\\wwwroot",
       "Source": "Talabat.presentations",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-core1.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-core1.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/hat-core1.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\hat-core1.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-react1.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-react1.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/hat-react1.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\hat-react1.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-react2.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\hat-react2.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/hat-react2.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\hat-react2.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ang1.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ang1.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/sb-ang1.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\sb-ang1.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ang2.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ang2.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/sb-ang2.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\sb-ang2.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-core1.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-core1.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/sb-core1.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\sb-core1.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-core2.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-core2.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/sb-core2.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\sb-core2.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-react1.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-react1.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/sb-react1.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Products\\sb-react1.png"
     },
     {
-      "Identity": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ts1.png",
+      "Identity": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\Images\\Products\\sb-ts1.png",
       "SourceId": "Talabat.presentations",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/Talabat.presentations",
       "RelativePath": "Images/Products/sb-ts1.png",
       "AssetKind": "All",

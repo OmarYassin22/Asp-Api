@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Talabat.Access.Models;
 using Talabat.Core.Interfaces;
+using Talabat.Core.Interfaces.Serviece;
 
 namespace Talabat.Service
 {

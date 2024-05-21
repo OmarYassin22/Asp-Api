@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+c3TQ1agLT4lJDGXhIvSoHlAqNxRzL2On8/ulYG5bWQHJYIBPdPJiJxn4XTLMN+WDSWsPq5MLPhsNUHTsNXyJQ==",
+  "dgSpecHash": "8KmxBCUBcefWzquIzBfpNet9bY7/XzWf9t8v0UV/cxQmjHxUvnc6n5VfQzH+PxywNJhq6mVjBPvWaZCjQ2c0hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Talabat.presentations.csproj",
+  "projectFilePath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Talabat.presentations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -60,6 +60,7 @@
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\stackexchange.redis\\2.7.33\\stackexchange.redis.2.7.33.nupkg.sha512",
+    "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\stripe.net\\44.8.0\\stripe.net.44.8.0.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

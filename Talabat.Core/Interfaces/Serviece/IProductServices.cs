@@ -7,7 +7,7 @@ using Talabat.Access.Models;
 using Talabat.Access.Specifications.Product.Interfaces;
 using Talabat.presentations.Helpers;
 
-namespace Talabat.Core.Interfaces
+namespace Talabat.Core.Interfaces.Serviece
 {
     public interface IProductServices
     {

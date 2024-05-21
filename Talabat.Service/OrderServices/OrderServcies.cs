@@ -8,6 +8,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Talabat.Access.Models;
 using Talabat.Core.Interfaces;
+using Talabat.Core.Interfaces.Serviece;
 using Talabat.Core.Models.Customer;
 using Talabat.Core.Models.Oreder_Aggregate;
 using Talabat.Repo.Repositories;
