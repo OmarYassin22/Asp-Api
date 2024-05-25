@@ -76,7 +76,7 @@ namespace Talabat.Service.PaymentService
             {
                 var option= new PaymentIntentUpdateOptions()
                 {
-                    Amount = (long)basket.Items.Sum(item => item.Price * 100 * item.Quantity) * (long)shippingPrice * 100,
+                    Amount = (long)basket.Items.Sum(item => item.Price * 100 * item.Quantity) +(long)shippingPrice * 100,
                 };
                  await paymentIntentservice.UpdateAsync(basket.PaymentIntedID, option); 
 

@@ -33,6 +33,8 @@ namespace Talabat.presentations.Helpers
             CreateMap<ApplicationUser, UserDto>().ReverseMap();
             CreateMap<Address, AddressDto>().ReverseMap();
             CreateMap<OrderAddress, OrderAddressDto>().
+                ReverseMap(); 
+            CreateMap<OrderAddress, AddressDto>().
                 ReverseMap();
             CreateMap<OrderItem, OrderItemDto>()
                 .ForMember(d => d.ProductId, O => O.MapFrom(s => s.Product.ProductId))

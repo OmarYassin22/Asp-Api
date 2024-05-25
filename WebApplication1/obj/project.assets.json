@@ -4898,11 +4898,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Talabat.presentations.csproj",
+      "projectUniqueName": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Talabat.presentations.csproj",
       "projectName": "Talabat.presentations",
-      "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Talabat.presentations.csproj",
+      "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\Talabat.presentations.csproj",
       "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Omar Y. Sleem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4919,14 +4919,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
-              "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
+            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj": {
+              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Core\\Talabat.Core.csproj"
             },
-            "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj": {
-              "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj"
+            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj": {
+              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Repos\\Talabat.Repo.csproj"
             },
-            "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj": {
-              "projectPath": "C:\\Users\\Omar Y. Sleem\\source\\repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj"
+            "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj": {
+              "projectPath": "C:\\Users\\Omar Y. Sleem\\Source\\Repos\\OmarYassin22\\Asp-Api\\Talabat.Service\\Talabat.Service.csproj"
             }
           }
         }

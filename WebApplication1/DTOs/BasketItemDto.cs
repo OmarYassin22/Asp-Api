@@ -7,7 +7,7 @@ namespace Talabat.presentations.DTOs
         [Required]
         public int Id { get; set; }
         [Required]
-        public string ProductName { get; set; }
+        public string Name { get; set; }
         [Required]
         [Range(1, double.MaxValue,ErrorMessage ="Price Can't Be Less Than 1 !!")]
         public decimal Price { get; set; }

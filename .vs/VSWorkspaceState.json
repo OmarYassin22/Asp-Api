@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Talabat.Service",
+    "\\Talabat.Service\\PaymentService",
     "\\Talabat.Service\\ProductServices"
   ],
-  "SelectedNode": "\\Talabat.Service\\ProductServices\\ProductServics.cs",
+  "SelectedNode": "\\Talabat.Service\\PaymentService\\PaymentService.cs",
   "PreviewInSolutionExplorer": false
 }

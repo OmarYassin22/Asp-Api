@@ -36,7 +36,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brand", (string)null);
+                    b.ToTable("Brand");
                 });
 
             modelBuilder.Entity("Talabat.Access.Models.Category", b =>
@@ -53,7 +53,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("Talabat.Access.Models.Product", b =>
@@ -93,7 +93,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Product", (string)null);
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("Talabat.Core.Models.Oreder_Aggregate.DeliveryMethod", b =>
@@ -124,7 +124,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DeliveryMethods", (string)null);
+                    b.ToTable("DeliveryMethods");
                 });
 
             modelBuilder.Entity("Talabat.Core.Models.Oreder_Aggregate.Order", b =>
@@ -163,7 +163,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasIndex("DeliveryMethodId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Talabat.Core.Models.Oreder_Aggregate.OrderItem", b =>
@@ -190,7 +190,7 @@ namespace Talabat.Repos.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItems", (string)null);
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("Talabat.Access.Models.Product", b =>
@@ -218,7 +218,7 @@ namespace Talabat.Repos.Migrations
                         .OnDelete(DeleteBehavior.SetNull)
                         .IsRequired();
 
-                    b.OwnsOne("Talabat.Core.Models.Oreder_Aggregate.Order.ShippingAddress#Talabat.Core.Models.Oreder_Aggregate.OrderAddress", "ShippingAddress", b1 =>
+                    b.OwnsOne("Talabat.Core.Models.Oreder_Aggregate.OrderAddress", "ShippingAddress", b1 =>
                         {
                             b1.Property<int>("OrderId")
                                 .HasColumnType("int");
@@ -245,7 +245,7 @@ namespace Talabat.Repos.Migrations
 
                             b1.HasKey("OrderId");
 
-                            b1.ToTable("Orders", (string)null);
+                            b1.ToTable("Orders");
 
                             b1.WithOwner()
                                 .HasForeignKey("OrderId");
@@ -264,7 +264,7 @@ namespace Talabat.Repos.Migrations
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.OwnsOne("Talabat.Core.Models.Oreder_Aggregate.OrderItem.Product#Talabat.Core.Models.Oreder_Aggregate.ProductItemOrder", "Product", b1 =>
+                    b.OwnsOne("Talabat.Core.Models.Oreder_Aggregate.ProductItemOrder", "Product", b1 =>
                         {
                             b1.Property<int>("OrderItemId")
                                 .HasColumnType("int");
@@ -282,7 +282,7 @@ namespace Talabat.Repos.Migrations
 
                             b1.HasKey("OrderItemId");
 
-                            b1.ToTable("OrderItems", (string)null);
+                            b1.ToTable("OrderItems");
 
                             b1.WithOwner()
                                 .HasForeignKey("OrderItemId");

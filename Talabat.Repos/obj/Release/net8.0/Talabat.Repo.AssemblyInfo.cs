@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Talabat.Repo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55cbcfee404f47ec0bf03ffe0496710f4d2bf39d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38d41bbd7e41d291f40e8590d60faa63314f93b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Talabat.Repo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Talabat.Repo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
