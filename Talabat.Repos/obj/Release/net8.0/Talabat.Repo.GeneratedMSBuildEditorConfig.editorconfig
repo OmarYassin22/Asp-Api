@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Talabat.Repo
-build_property.ProjectDir = C:\Users\Omar Y. Sleem\source\repos\OmarYassin22\Asp-Api\Talabat.Repos\
+build_property.ProjectDir = D:\projects\OmarYassin22\Asp-Api\Talabat.Repos\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
